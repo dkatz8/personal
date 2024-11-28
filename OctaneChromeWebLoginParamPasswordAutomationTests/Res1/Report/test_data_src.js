@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\dkatz\\OneDrive - OpenText\\Documents\\GitHub\\execution_validation\\UFTOneAutomationTests\\OctaneChromeWebLoginParamPasswordAutomationTests\\Res1',namePairs:[]}]};

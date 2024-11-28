@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+ActiveX, Java, WinForms, WPF.</Description>
+    <StartTime>2024-11-28 12:00:32</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>Invoke Browser</Name>
+    <Description>Unable to launch the browser. The specified browser is not installed.</Description>
+    <StartTime>2024-11-28 12:00:37</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>080fed9902c54a998fb48e82350abe6c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",1</Name>
+    <StartTime>2024-11-28 12:00:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>0f3186e736c446eca9f531de86e0028e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Invalid procedure call or argument</Name>
+    <ErrorText>Invalid procedure call or argument</ErrorText>
+    <Description>&lt;BR/&gt;Line (7): &amp;quot;systemUtil.Run (&amp;quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2024-11-28 12:00:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Login]]></ModuleName>
+          <FileName><![CDATA[Login]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[systemUtil.Run ("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>01c7f8f39ae34e0e8f6708bb68485388</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0ea8c553-2cf4-4c05-b024-fb96e809ada5.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-11-28 12:00:40</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>5db5c580af214afdb1da8367a447dce0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description />
+    <StartTime>2024-11-28 12:00:37</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="Octane_User_Name" value="mqm_rnd@hpe.com" type="System.String" />
+      <Parameter name="Octane_Password" value="6220f5a0566860852514ad5b50f86cc5b21ded99bf2f4e67" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>49dfd727b3384c12ade8adc2fa01a49f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-11-28 12:00:32</StartTime>
+    <Duration>8</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>46bd643f1bf44f3d9dcf3d3e915b1339</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OctaneChromeWebLoginParamPasswordAutomationTests</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-11-28 12:00:31</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <ParallelRunnerEnvInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ID />
+        <Manufacturer />
+        <Model />
+        <OsType />
+        <OsVersion />
+        <DesktopBrowser />
+        <ErrorMessage>Unable to launch the browser. The specified browser is not installed.</ErrorMessage>
+      </ParallelRunnerEnvInfo>
+      <IconKey>c75d631a2ab84d7bb9da8317062c9e21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>OPENTEXT\dkatz</User>
+      <CpuInfo>12th Gen Intel(R) Core(TM) i7-1265U</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>16069</TotalMemory>
+      <HostName>\OTX-2Q66KR3</HostName>
+      <OSInfo>Windows 11 23H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2024-11-28 12:00:31</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
