@@ -7,7 +7,7 @@ Browser("Login -").Page("Login - MyAccount").WebButton("SIGN IN").Click @@ scrip
 Browser("Login -").Page("Workspaces - Core Software").WebButton("OK").Click
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add Workspace").Click @@ script infofile_;_ZIP::ssf33.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "dudu_automation" @@ script infofile_;_ZIP::ssf34.xml_;_
-Browser("Login -").Page("Workspaces - Core Software").WebButton("Add").Click @@ script infofile_;_ZIP::ssf35.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebButton("Add      Add").Click
 Wait 15
 Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("dudu_automation").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("WebButton").Click
@@ -27,7 +27,6 @@ Browser("Login -").Page("Workspaces - Core Software").WebButton("Save").Click
 
  @@ script infofile_;_ZIP::ssf2.xml_;_
  @@ script infofile_;_ZIP::ssf7.xml_;_
-
-
+ @@ script infofile_;_ZIP::ssf3.xml_;_
 
  @@ script infofile_;_ZIP::ssf48.xml_;_
