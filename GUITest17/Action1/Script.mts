@@ -6,14 +6,14 @@ Browser("Login -").Page("Login - MyAccount").WebEdit("password").SetSecure "676a
 Browser("Login -").Page("Login - MyAccount").WebButton("SIGN IN").Click @@ script infofile_;_ZIP::ssf29.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("OK").Click
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add Workspace").Click @@ script infofile_;_ZIP::ssf33.xml_;_
-Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "test" @@ script infofile_;_ZIP::ssf34.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "dudu_auto" @@ script infofile_;_ZIP::ssf34.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add      Add").Click @@ script infofile_;_ZIP::ssf35.xml_;_
 Wait 15
-Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("test").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("dudu_auto").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("More").Click @@ script infofile_;_ZIP::ssf36.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Cloud Runner").Click @@ script infofile_;_ZIP::ssf37.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebList("WebList").Click @@ script infofile_;_ZIP::ssf38.xml_;_
-Browser("Login -").Page("Workspaces - Core Software").WebEdit("WebEdit").Set "new" @@ script infofile_;_ZIP::ssf39.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebEdit("WebEdit").Set Parameter("Runner_name") @@ script infofile_;_ZIP::ssf39.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("UFT").Set "ON" @@ script infofile_;_ZIP::ssf40.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("WebEdit_2").Set "https://github.com/ftegit/uftscript.git" @@ script infofile_;_ZIP::ssf41.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("WebEdit_3").Set "ftegit" @@ script infofile_;_ZIP::ssf42.xml_;_
