@@ -6,10 +6,12 @@ Browser("Login -").Page("Login - MyAccount").WebEdit("password").SetSecure "676a
 Browser("Login -").Page("Login - MyAccount").WebButton("SIGN IN").Click @@ script infofile_;_ZIP::ssf29.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("OK").Click
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add Workspace").Click @@ script infofile_;_ZIP::ssf33.xml_;_
-Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "dudu_auto" @@ script infofile_;_ZIP::ssf34.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "dudu_automation" @@ script infofile_;_ZIP::ssf34.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add      Add").Click @@ script infofile_;_ZIP::ssf35.xml_;_
 Wait 15
-Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("dudu_auto").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("dudu_automation").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebButton("WebButton").Click
+Wait 15
 Browser("Login -").Page("Workspaces - Core Software").WebButton("More").Click @@ script infofile_;_ZIP::ssf36.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Cloud Runner").Click @@ script infofile_;_ZIP::ssf37.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebList("WebList").Click @@ script infofile_;_ZIP::ssf38.xml_;_
@@ -22,6 +24,8 @@ Browser("Login -").Page("Workspaces - Core Software").WebButton("Test Connection
 wait 5
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Save").Click @@ script infofile_;_ZIP::ssf46.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Test Connection").Click @@ script infofile_;_ZIP::ssf45.xml_;_
+
+ @@ script infofile_;_ZIP::ssf2.xml_;_
 
 
 
