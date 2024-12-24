@@ -6,10 +6,10 @@ Browser("Login -").Page("Login - MyAccount").WebEdit("password").SetSecure "676a
 Browser("Login -").Page("Login - MyAccount").WebButton("SIGN IN").Click @@ script infofile_;_ZIP::ssf29.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("OK").Click
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add Workspace").Click @@ script infofile_;_ZIP::ssf33.xml_;_
-Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "dudu_automation" @@ script infofile_;_ZIP::ssf34.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "dudu_automation_A" @@ script infofile_;_ZIP::ssf34.xml_;_
 AIUtil.FindTextBlock("Add").Click @@ script infofile_;_ZIP::ssf35.xml_;_
 Wait 15
-Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("dudu_automation").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebCheckBox("dudu_automation_A").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("WebButton").Click
 Wait 15
 Browser("Login -").Page("Workspaces - Core Software").WebButton("More").Click @@ script infofile_;_ZIP::ssf36.xml_;_
