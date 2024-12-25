@@ -9,6 +9,7 @@ Browser("Login -").Page("Workspaces - Core Software").WebButton("Add Workspace")
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "WS_Auto" @@ script infofile_;_ZIP::ssf34.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add      Add").Click
 Wait 15
+Browser("Workspaces - Core Software_2").Page("Workspaces - Core Software").WebEdit("Type to search").Set "WS_Auto" @@ script infofile_;_ZIP::ssf6.xml_;_
 Browser("Workspaces - Core Software_2").Page("Workspaces - Core Software").WebCheckBox("WS_Auto").Set "ON" @@ script infofile_;_ZIP::ssf5.xml_;_
 Wait 15
 Browser("Login -").Page("Workspaces - Core Software").WebButton("More").Click @@ script infofile_;_ZIP::ssf36.xml_;_
@@ -31,6 +32,8 @@ Browser("Login -").Page("Workspaces - Core Software").WebButton("Save").Click
 
  
  @@ script infofile_;_ZIP::ssf9.xml_;_
+Browser("Workspaces - Core Software_2").Page("Workspaces - Core Software").WebEdit("Type to search").Set "WS_Auto" @@ script infofile_;_ZIP::ssf6.xml_;_
+Browser("Workspaces - Core Software_2").Page("Workspaces - Core Software").WebCheckBox("WS_Auto").Set "ON" @@ script infofile_;_ZIP::ssf7.xml_;_
  @@ script infofile_;_ZIP::ssf11.xml_;_
  @@ script infofile_;_ZIP::ssf12.xml_;_
  @@ script infofile_;_ZIP::ssf7.xml_;_
