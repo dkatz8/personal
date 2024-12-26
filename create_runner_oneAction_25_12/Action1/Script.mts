@@ -7,7 +7,7 @@ Browser("Login -").Page("Login - MyAccount").WebButton("SIGN IN").Click @@ scrip
 Browser("Login -").Page("Workspaces - Core Software").WebButton("OK").Click
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Add Workspace").Click @@ script infofile_;_ZIP::ssf33.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("Name").Set "WS_Auto" @@ script infofile_;_ZIP::ssf34.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add      Add").Click
+Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add").Click
 Wait 15
 Browser("Workspaces - Core Software_2").Page("Workspaces - Core Software").WebEdit("Type to search").Set "WS_Auto" @@ script infofile_;_ZIP::ssf6.xml_;_
 Browser("Workspaces - Core Software_2").Page("Workspaces - Core Software").WebCheckBox("WS_Auto").Set "ON" @@ script infofile_;_ZIP::ssf5.xml_;_
