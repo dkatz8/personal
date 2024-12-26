@@ -27,7 +27,7 @@ Browser("Login -").Page("Workspaces - Core Software").WebButton("Save").Click
 
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Cloud Runner").Click @@ script infofile_;_ZIP::ssf28.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebList("WebList").Click
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set "UFT mbtuser Git" @@ script infofile_;_ZIP::ssf19.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebEdit("WebEdit").Set Parameter("UFT_runner") @@ script infofile_;_ZIP::ssf19.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebCheckBox("UFT").Set "ON" @@ script infofile_;_ZIP::ssf20.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit_2").Set "https://github.com/mbtuser/mbtuser.git" @@ script infofile_;_ZIP::ssf21.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Test Connection").Click @@ script infofile_;_ZIP::ssf22.xml_;_
@@ -37,7 +37,7 @@ Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Save").Click 
  
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Cloud Runner").Click @@ script infofile_;_ZIP::ssf28.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebList("WebList").Click @@ script infofile_;_ZIP::ssf29.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set "MBT mbtuser Git" @@ script infofile_;_ZIP::ssf30.xml_;_
+Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set Parameter("MBT_runner") @@ script infofile_;_ZIP::ssf30.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebCheckBox("MBT (UFT)").Set "ON" @@ script infofile_;_ZIP::ssf31.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit_2").Set "https://github.com/mbtuser/mbtuser.git" @@ script infofile_;_ZIP::ssf32.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Test Connection").Click @@ script infofile_;_ZIP::ssf33.xml_;_
@@ -46,7 +46,7 @@ Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Test Connecti
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Save").Click @@ script infofile_;_ZIP::ssf34.xml_;_
 
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Cloud Runner").Click @@ script infofile_;_ZIP::ssf35.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set "MBT selenium" @@ script infofile_;_ZIP::ssf36.xml_;_
+Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set Parameter("MBT_TestNG" @@ script infofile_;_ZIP::ssf36.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebList("WebList").Click @@ script infofile_;_ZIP::ssf37.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebCheckBox("MBT (Selenium TestNG)").Set "ON" @@ script infofile_;_ZIP::ssf38.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("Enter package to scan").Set "org.fte" @@ script infofile_;_ZIP::ssf39.xml_;_
@@ -58,7 +58,7 @@ Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Save").Click 
 
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Cloud Runner").Click @@ script infofile_;_ZIP::ssf44.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebList("WebList").Click @@ script infofile_;_ZIP::ssf45.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set "TestNG" @@ script infofile_;_ZIP::ssf46.xml_;_
+Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit").Set Parameter("Selenium_runner") @@ script infofile_;_ZIP::ssf46.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebCheckBox("Selenium (TestNG)").Set "ON" @@ script infofile_;_ZIP::ssf47.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("Enter package to scan").Set "org.fte" @@ script infofile_;_ZIP::ssf48.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("WebEdit_2").Set "https://github.com/mbtuser/FTESelenium.git" @@ script infofile_;_ZIP::ssf49.xml_;_
