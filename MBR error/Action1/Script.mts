@@ -1,5 +1,4 @@
-﻿
-Browser("Login -").Page("Functional Testing Model-Based").Sync
+﻿Browser("Login -").Page("Login -").Sync
 Browser("Login -").Navigate "https://qa8.almoctane.com/ui/?p=129002/1002#/mbt-designer/hierarchy/models" @@ hightlight id_;_204364_;_script infofile_;_ZIP::ssf19.xml_;_
 Browser("Login -").Page("Login -").WebElement("Back > Sign in with corporate").Click @@ script infofile_;_ZIP::ssf20.xml_;_
 Browser("Login -").Page("Login -").WebButton("CONTINUE").Click @@ script infofile_;_ZIP::ssf21.xml_;_
@@ -22,7 +21,6 @@ wait 3
 Browser("Login -").Page("Login -").Sync
 Browser("Login -").Navigate "https://integration-branch-prod.almoctane.com/ui/?p=21003/1002#/mbt-designer/hierarchy/models" @@ hightlight id_;_204364_;_script infofile_;_ZIP::ssf1.xml_;_
 Browser("Login -").Page("Login -").WebElement("Back > Sign in with corporate").Click @@ script infofile_;_ZIP::ssf2.xml_;_
-Browser("Login -").Page("Login -").WebEdit("federateLoginName").Set "" @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Login -").Page("Login -").WebEdit("federateLoginName").Set "MFI-adm.rd.mqm.devops@opentext.com" @@ script infofile_;_ZIP::ssf4.xml_;_
 Browser("Login -").Page("Login -").WebButton("CONTINUE").Click @@ script infofile_;_ZIP::ssf5.xml_;_
 Browser("Login -").Page("Login -").WebEdit("password").SetSecure "677e865236caebe135f8acfe4950914289e2349ce39f3cd49a5636c6664076f588df" @@ script infofile_;_ZIP::ssf6.xml_;_
