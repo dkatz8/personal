@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\test\\repository\\copy\\src\\repo-1010\\repository\\Object name\\Res1',namePairs:[]}]};
