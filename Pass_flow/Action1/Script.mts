@@ -103,7 +103,7 @@ Browser("Browser").Page("Workspaces - Core Software").WebButton("Manual Test").C
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("Name").Set "Manual test" @@ script infofile_;_ZIP::ssf125.xml_;_
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("Description textbox").Set "New manual text" @@ script infofile_;_ZIP::ssf126.xml_;_
 Browser("Browser").Page("Workspaces - Core Software").WebButton("Add      Add").Click
-Browser("Browser").Page("Workspaces - Core Software").WebElement("Manual test").Exist(15) Then
+If.Browser("Browser").Page("Workspaces - Core Software").WebElement("Manual test").Exist(15) Then
      Reporter.ReportEvent micPass, "Manual test  successful","Manual test   successful"
 Else
      Reporter.ReportEvent micFail, "Manual test fail","Manual test failed"
