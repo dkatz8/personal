@@ -4,8 +4,9 @@ Browser("Login -").Page("Login -").WebElement("Back > Sign in with corporate").C
 Browser("Login -").Page("Login -").WebEdit("federateLoginName").Set "mqm_rnd@hpe.com" @@ script infofile_;_ZIP::ssf72.xml_;_
 Browser("Login -").Page("Login -").WebButton("CONTINUE").Click @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Login -").Page("Login -").WebEdit("password").SetSecure "6790f46bc866c54a09d3f82343aa44e3aa071a6085d7d0269e39164183603155154e" @@ script infofile_;_ZIP::ssf4.xml_;_
-Browser("Login -").Page("Login -").WebButton("SIGN IN").Click @@ hightlight id_;_8328914_;_script infofile_;_ZIP::ssf74.xml_;_
-Browser("Browser").Page("Workspaces - Core Software").WebButton("User").Click @@ script infofile_;_ZIP::ssf75.xml_;_
+Browser("Login -").Page("Login -").WebButton("SIGN IN").Click
+Browser("Browser").Page("Workspaces - Core Software").WebElement("WebElement_4").Click @@ script infofile_;_ZIP::ssf160.xml_;_
+Browser("Browser").Page("Workspaces - Core Software").WebButton("User").Click
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("First name").Set "d" @@ script infofile_;_ZIP::ssf76.xml_;_
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("Last name").Set "k" @@ script infofile_;_ZIP::ssf77.xml_;_
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("Email").Set "dkatz@opentext.com" @@ script infofile_;_ZIP::ssf78.xml_;_
