@@ -5,7 +5,9 @@ Browser("Login -").Page("Login -").WebEdit("federateLoginName").Set "mqm_rnd@hpe
 Browser("Login -").Page("Login -").WebButton("CONTINUE").Click @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Login -").Page("Login -").WebEdit("password").SetSecure "6790f46bc866c54a09d3f82343aa44e3aa071a6085d7d0269e39164183603155154e" @@ script infofile_;_ZIP::ssf4.xml_;_
 Browser("Login -").Page("Login -").WebButton("SIGN IN").Click
+wait 6
 Browser("Browser").Page("Workspaces - Core Software").WebElement("WebElement_4").Click @@ script infofile_;_ZIP::ssf160.xml_;_
+Wait 2
 Browser("Browser").Page("Workspaces - Core Software").WebButton("User").Click
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("First name").Set "d" @@ script infofile_;_ZIP::ssf76.xml_;_
 Browser("Browser").Page("Workspaces - Core Software").WebEdit("Last name").Set "k" @@ script infofile_;_ZIP::ssf77.xml_;_
