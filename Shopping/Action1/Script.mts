@@ -30,5 +30,8 @@ Else
      Reporter.ReportEvent micFail, "Buy a bag fail","Buy a bag  failed"
 End If @@ script infofile_;_ZIP::ssf89.xml_;_
 Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click @@ script infofile_;_ZIP::ssf92.xml_;_
+
+
+ @@ script infofile_;_ZIP::ssf121.xml_;_
  @@ script infofile_;_ZIP::ssf114.xml_;_
 
