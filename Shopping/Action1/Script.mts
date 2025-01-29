@@ -1,33 +1,34 @@
 ﻿Browser("Tanks - Tops - Men - Magento").Page("Openbare Magento 2 demo").Sync
 Browser("Tanks - Tops - Men - Magento").Navigate "https://magento2demo.firemultimedia.nl/"
-Browser("Tanks - Tops - Men - Magento").Page("Openbare Magento 2 demo").WebEdit("q").Set "bag" @@ script infofile_;_ZIP::ssf62.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Openbare Magento 2 demo").WebEdit("q").Submit @@ script infofile_;_ZIP::ssf63.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Zoekresultaten voor: ‘bag’").Image("Push It Messenger Bag").Click @@ script infofile_;_ZIP::ssf64.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Push It Messenger Bag").WebButton("In Winkelwagen").Click @@ script infofile_;_ZIP::ssf65.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Push It Messenger Bag").Link("Reviews 3").Click @@ script infofile_;_ZIP::ssf66.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Push It Messenger Bag").Link("Meer informatie").Click @@ script infofile_;_ZIP::ssf67.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Push It Messenger Bag").Link("Gegevens").Click @@ script infofile_;_ZIP::ssf68.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Push It Messenger Bag").Image("Fusion Backpack").Click @@ script infofile_;_ZIP::ssf69.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Fusion Backpack - Magento").Link("3  Reviews").Click @@ script infofile_;_ZIP::ssf70.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Fusion Backpack - Magento").WebButton("In Winkelwagen").Click
-Browser("Tanks - Tops - Men - Magento").Page("Fusion Backpack - Magento").Link("Winkelwagen 2 2 items").Click @@ script infofile_;_ZIP::ssf74.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Fusion Backpack - Magento").WebButton("Ga door naar afrekenen").Click
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("username").Set "avin8n@gmail.com" @@ script infofile_;_ZIP::ssf76.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("firstname").Set "Avi" @@ script infofile_;_ZIP::ssf77.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("lastname").Set "nimni" @@ script infofile_;_ZIP::ssf78.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("street[0]").Set "hadera" @@ script infofile_;_ZIP::ssf79.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebList("country_id").Select "Andorra" @@ script infofile_;_ZIP::ssf80.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("city").Set "1234567" @@ script infofile_;_ZIP::ssf81.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("postcode").Set "5656565" @@ script infofile_;_ZIP::ssf82.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebEdit("telephone").Set "050693669" @@ script infofile_;_ZIP::ssf83.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "freeshipping_freeshipping" @@ script infofile_;_ZIP::ssf84.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebButton("Volgende").Click @@ script infofile_;_ZIP::ssf85.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebRadioGroup("payment[method]").Select "cashondelivery" @@ script infofile_;_ZIP::ssf86.xml_;_
-Browser("Tanks - Tops - Men - Magento").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
+Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Set "bags" @@ script infofile_;_ZIP::ssf96.xml_;_
+Browser("Browser_3").Page("Openbare Magento 2 demo").WebEdit("q").Submit @@ script infofile_;_ZIP::ssf97.xml_;_
+Browser("Browser_3").Page("Zoekresultaten voor: ‘bug’").Image("Push It Messenger Bag").Click @@ script infofile_;_ZIP::ssf98.xml_;_
+Browser("Browser_3").Page("Push It Messenger Bag").Link("Reviews 3").Click @@ script infofile_;_ZIP::ssf99.xml_;_
+Browser("Browser_3").Page("Push It Messenger Bag").Link("Meer informatie").Click @@ script infofile_;_ZIP::ssf100.xml_;_
+Browser("Browser_3").Page("Push It Messenger Bag").Image("Fusion Backpack").Click @@ script infofile_;_ZIP::ssf101.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").Link("3  Reviews").Click @@ script infofile_;_ZIP::ssf102.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Meer informatie").Click @@ script infofile_;_ZIP::ssf103.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Gegevens").Click @@ script infofile_;_ZIP::ssf104.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").WebButton("In Winkelwagen").Click @@ script infofile_;_ZIP::ssf105.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").Link("Winkelwagen 1 1 items").Click @@ script infofile_;_ZIP::ssf106.xml_;_
+Browser("Browser_3").Page("Fusion Backpack - Magento").WebButton("Ga door naar afrekenen").Click @@ script infofile_;_ZIP::ssf107.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("username").Set "avi8nimni@gmail.com" @@ script infofile_;_ZIP::ssf108.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("firstname").Set "avi" @@ script infofile_;_ZIP::ssf109.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("lastname").Set "nimni" @@ script infofile_;_ZIP::ssf110.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("street[0]").Set "terkom" @@ script infofile_;_ZIP::ssf111.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("city").Set "123657135" @@ script infofile_;_ZIP::ssf112.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("postcode").Set "32145659" @@ script infofile_;_ZIP::ssf113.xml_;_
+
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("telephone").Set "050986552" @@ script infofile_;_ZIP::ssf115.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "freeshipping_freeshipping" @@ script infofile_;_ZIP::ssf116.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Volgende").Click @@ script infofile_;_ZIP::ssf117.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("payment[method]").Select "cashondelivery" @@ script infofile_;_ZIP::ssf118.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
 If.Browser("Tanks - Tops - Men - Magento").Page("Success Page - Magento").WebElement("Bedankt voor uw bestelling!").Exist(15) Then
      Reporter.ReportEvent micPass, "Buy a bag  successful","Buy a bag   successful"
 Else
      Reporter.ReportEvent micFail, "Buy a bag fail","Buy a bag  failed"
 End If @@ script infofile_;_ZIP::ssf89.xml_;_
 Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click @@ script infofile_;_ZIP::ssf92.xml_;_
+ @@ script infofile_;_ZIP::ssf114.xml_;_
 
