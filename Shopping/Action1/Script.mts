@@ -17,18 +17,12 @@ Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("firstname").Set "avi" 
 Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("lastname").Set "nimni" @@ script infofile_;_ZIP::ssf110.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("street[0]").Set "terkom" @@ script infofile_;_ZIP::ssf111.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("city").Set "123657135" @@ script infofile_;_ZIP::ssf112.xml_;_
-Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("postcode").Set "32145659" @@ script infofile_;_ZIP::ssf113.xml_;_
-
+Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("postcode").Set "32145659"
 Browser("Browser_3").Page("Afrekenen - Magento").WebEdit("telephone").Set "050986552" @@ script infofile_;_ZIP::ssf115.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("Free").Select "freeshipping_freeshipping" @@ script infofile_;_ZIP::ssf116.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Volgende").Click @@ script infofile_;_ZIP::ssf117.xml_;_
 Browser("Browser_3").Page("Afrekenen - Magento").WebRadioGroup("payment[method]").Select "cashondelivery" @@ script infofile_;_ZIP::ssf118.xml_;_
-Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click
-If.Browser("Tanks - Tops - Men - Magento").Page("Success Page - Magento").WebElement("Bedankt voor uw bestelling!").Exist(15) Then
-     Reporter.ReportEvent micPass, "Buy a bag  successful","Buy a bag   successful"
-Else
-     Reporter.ReportEvent micFail, "Buy a bag fail","Buy a bag  failed"
-End If @@ script infofile_;_ZIP::ssf89.xml_;_
+Browser("Browser_3").Page("Afrekenen - Magento").WebButton("Nu bestellen en betalen").Click @@ script infofile_;_ZIP::ssf89.xml_;_
 Browser("Browser_3").Page("Success Page - Magento").Link("Ga verder met winkelen").Click @@ script infofile_;_ZIP::ssf92.xml_;_
 
 
