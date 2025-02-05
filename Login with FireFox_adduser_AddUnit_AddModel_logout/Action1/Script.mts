@@ -1,5 +1,5 @@
 ﻿Browser("Login -").Page("Workspaces - Core Software").Sync
-Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008/3001&admin=#/settings/workspace/devops/build-servers"
+Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008/2003&admin=#/settings/workspace/users"
 Browser("Login -").Page("Login - MyAccount").WebEdit("federateLoginName").Set "MFI-adm.rd.mqm.devops@opentext.com"
 Browser("Login -").Page("Login - MyAccount").WebElement("Submit your email address").Click @@ script infofile_;_ZIP::ssf7.xml_;_
 Browser("Login -").Page("Login - MyAccount").WebButton("CONTINUE").Click @@ script infofile_;_ZIP::ssf8.xml_;_
@@ -34,7 +34,7 @@ Wait 1
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Save").Click @@ script infofile_;_ZIP::ssf42.xml_;_
 wait 1 @@ script infofile_;_ZIP::ssf46.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").Sync
-Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008/3001#/mbt-designer/hierarchy/models" @@ hightlight id_;_269054_;_script infofile_;_ZIP::ssf47.xml_;_
+Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008/2003#/mbt-designer/hierarchy/models" @@ hightlight id_;_269054_;_script infofile_;_ZIP::ssf47.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add item").Click @@ script infofile_;_ZIP::ssf74.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Model_folder_name") @@ script infofile_;_ZIP::ssf75.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add & Edit      Add &").Click @@ script infofile_;_ZIP::ssf76.xml_;_
