@@ -11,7 +11,7 @@ Browser("Login -").Page("Workspaces - Core Software").WebEdit("First name").Set 
 Browser("Login -_2").Page("Workspaces - Core Software").WebElement("WebElement").Click @@ script infofile_;_ZIP::ssf65.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("Last name").Set Parameter("Last_Name") @@ script infofile_;_ZIP::ssf28.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebElement("WebElement_2").Click @@ script infofile_;_ZIP::ssf67.xml_;_
-Browser("Login -").Page("Workspaces - Core Software").WebEdit("Email").Set Parameter(Set Parameter("Email") @@ script infofile_;_ZIP::ssf29.xml_;_
+Browser("Login -").Page("Workspaces - Core Software").WebEdit("Email").Set Parameter("Email") @@ script infofile_;_ZIP::ssf29.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebElement("WebElement_3").Click
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("Phone").Set Parameter("Phone") @@ script infofile_;_ZIP::ssf30.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebList("Roles").Click
@@ -36,15 +36,15 @@ wait 1 @@ script infofile_;_ZIP::ssf46.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").Sync
 Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008/3001#/mbt-designer/hierarchy/models" @@ hightlight id_;_269054_;_script infofile_;_ZIP::ssf47.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add item").Click @@ script infofile_;_ZIP::ssf74.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Model_folder_name" @@ script infofile_;_ZIP::ssf75.xml_;_
+Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Model_folder_name") @@ script infofile_;_ZIP::ssf75.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add & Edit      Add &").Click @@ script infofile_;_ZIP::ssf76.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebTabStrip("Details Models Units").Select "Units" @@ script infofile_;_ZIP::ssf77.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Unit").Click @@ script infofile_;_ZIP::ssf78.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Unit_name" @@ script infofile_;_ZIP::ssf79.xml_;_
+Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Unit_name") @@ script infofile_;_ZIP::ssf79.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add      Add").Click @@ script infofile_;_ZIP::ssf80.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebTabStrip("Details Models Units").Select "Models" @@ script infofile_;_ZIP::ssf81.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Model").Click @@ script infofile_;_ZIP::ssf82.xml_;_
-Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Model_name" @@ script infofile_;_ZIP::ssf83.xml_;_
+Browser("Login -_2").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Model_name") @@ script infofile_;_ZIP::ssf83.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebButton("Add      Add").Click @@ script infofile_;_ZIP::ssf56.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").Image("user avatar").Click @@ script infofile_;_ZIP::ssf57.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebButton("Sign out").Click @@ script infofile_;_ZIP::ssf84.xml_;_
