@@ -6,6 +6,7 @@ Browser("Login -").Page("Login - MyAccount").WebButton("CONTINUE").Click @@ scri
 Browser("Login -").Page("Login - MyAccount").WebEdit("password").SetSecure "67a359a4703ea9ddba64eecaf33f06f369c14e430e1b078af08887f596572dec2a6a" @@ script infofile_;_ZIP::ssf9.xml_;_
 Browser("Login -").Page("Login - MyAccount").WebButton("SIGN IN").Click
 Browser("Login -").Page("Workspaces - Core Software").WebButton("User").Click
+wait 2
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("First name").Set Parameter("Name") @@ script infofile_;_ZIP::ssf27.xml_;_
 Browser("Login -_2").Page("Workspaces - Core Software").WebElement("WebElement").Click @@ script infofile_;_ZIP::ssf65.xml_;_
 Browser("Login -").Page("Workspaces - Core Software").WebEdit("Last name").Set Parameter("Last_Name") @@ script infofile_;_ZIP::ssf28.xml_;_
