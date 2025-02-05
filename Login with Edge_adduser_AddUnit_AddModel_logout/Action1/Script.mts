@@ -1,5 +1,5 @@
 ﻿Browser("Login -").Page("Workspaces - Core Software").Sync
-Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008/3001&admin=#/settings/workspace/devops/build-servers"
+Browser("Login -").Navigate "https://integration-master-dev.almoctane.com/ui/?p=2008%2F3001&admin=#/settings/workspace/users"
 Browser("Login -").Page("Login - MyAccount").WebEdit("federateLoginName").Set "MFI-adm.rd.mqm.devops@opentext.com"
 Browser("Login -").Page("Login - MyAccount").WebElement("Submit your email address").Click @@ script infofile_;_ZIP::ssf7.xml_;_
 Browser("Login -").Page("Login - MyAccount").WebButton("CONTINUE").Click @@ script infofile_;_ZIP::ssf8.xml_;_
